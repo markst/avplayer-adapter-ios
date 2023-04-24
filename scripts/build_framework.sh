@@ -32,8 +32,10 @@ xcodebuild -create-xcframework \
     -framework ${IOS_ARCHIVE_PATH}/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework \
     -output ${FRAMEWORK_NAME}.xcframework
 
+: '
 zip ${FRAMEWORK_NAME}.xcframework.zip ${FRAMEWORK_NAME}.xcframework
 
 rm -rf ${BUILD_DIR}
 
 swift package compute-checksum YouboraAVPlayerAdapter.xcframework.zip
+'
