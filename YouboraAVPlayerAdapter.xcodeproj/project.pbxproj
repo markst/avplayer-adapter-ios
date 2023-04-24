@@ -59,9 +59,12 @@
 		06B6E17423CE096100E5DEAC /* YBAVPlayerAdsAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 066C03DF23A8D89B0000F792 /* YBAVPlayerAdsAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		06B6E17523CE096400E5DEAC /* YBAVPlayerAdsAdapterSwiftWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 064D9E0D23C6487500631E8F /* YBAVPlayerAdsAdapterSwiftWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E4956651E9F6CAA00FF6280 /* YouboraAVPlayerAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4956631E9F6CAA00FF6280 /* YouboraAVPlayerAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A83C906BAFD1D79FC367780 /* Pods_YouboraAVPlayerAdapter_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F398EC018C7F7ACF71FEAE /* Pods_YouboraAVPlayerAdapter_OSX.framework */; };
+		9EF9269B0CD43C7542876D28 /* Pods_YouboraAVPlayerAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8842E448DBA22AD1EA060E5 /* Pods_YouboraAVPlayerAdapter.framework */; };
 		CD92C74F22CB4FF100286DF9 /* BuildFile in Headers */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (Public, ); }; };
 		CD92C75022CB4FF100286DF9 /* BuildFile in Headers */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (Public, ); }; };
 		CD92C75122CB4FF100286DF9 /* BuildFile in Headers */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (Public, ); }; };
+		E210B940D4A9FD7716A22463 /* Pods_YouboraAVPlayerAdapter_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCF80E0496E9F403E4C7D8A /* Pods_YouboraAVPlayerAdapter_tvOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -97,9 +100,16 @@
 		069EA2E423A8EFE500819D94 /* YouboraLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YouboraLib.framework; path = Carthage/Build/iOS/YouboraLib.framework; sourceTree = "<group>"; };
 		06A8100323A7A4B1007976CD /* YBAVPlayerAdapterTranformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBAVPlayerAdapterTranformer.h; sourceTree = "<group>"; };
 		06A8100423A7A4B1007976CD /* YBAVPlayerAdapterTranformer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBAVPlayerAdapterTranformer.m; sourceTree = "<group>"; };
+		1DAF19746D7516BB0512586B /* Pods-YouboraAVPlayerAdapter tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouboraAVPlayerAdapter tvOS.debug.xcconfig"; path = "Target Support Files/Pods-YouboraAVPlayerAdapter tvOS/Pods-YouboraAVPlayerAdapter tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		35E69D4A3CDAF045369ECE93 /* Pods-YouboraAVPlayerAdapter OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouboraAVPlayerAdapter OSX.debug.xcconfig"; path = "Target Support Files/Pods-YouboraAVPlayerAdapter OSX/Pods-YouboraAVPlayerAdapter OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		43F398EC018C7F7ACF71FEAE /* Pods_YouboraAVPlayerAdapter_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouboraAVPlayerAdapter_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4956601E9F6CAA00FF6280 /* YouboraAVPlayerAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YouboraAVPlayerAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4956631E9F6CAA00FF6280 /* YouboraAVPlayerAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YouboraAVPlayerAdapter.h; sourceTree = "<group>"; };
 		4E4956641E9F6CAA00FF6280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A267FFBEE7A79B78A15D86 /* Pods-YouboraAVPlayerAdapter OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouboraAVPlayerAdapter OSX.release.xcconfig"; path = "Target Support Files/Pods-YouboraAVPlayerAdapter OSX/Pods-YouboraAVPlayerAdapter OSX.release.xcconfig"; sourceTree = "<group>"; };
+		80751B77EA9C838DBD7E943E /* Pods-YouboraAVPlayerAdapter tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouboraAVPlayerAdapter tvOS.release.xcconfig"; path = "Target Support Files/Pods-YouboraAVPlayerAdapter tvOS/Pods-YouboraAVPlayerAdapter tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		AFCF80E0496E9F403E4C7D8A /* Pods_YouboraAVPlayerAdapter_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouboraAVPlayerAdapter_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8842E448DBA22AD1EA060E5 /* Pods_YouboraAVPlayerAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouboraAVPlayerAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5237FF228DCD880013BA16 /* YouboraAVPlayerAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YouboraAVPlayerAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD523801228DCD880013BA16 /* YouboraAVPlayerAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YouboraAVPlayerAdapter.h; sourceTree = "<group>"; };
 		CD523802228DCD880013BA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,6 +117,8 @@
 		CDBA56141FB0771900A9A35C /* YouboraAVPlayerAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YouboraAVPlayerAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDBA56161FB0771900A9A35C /* YouboraAVPlayerAdapter_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YouboraAVPlayerAdapter_tvOS.h; sourceTree = "<group>"; };
 		CDBA56171FB0771900A9A35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCCBC245CB83579E9C4300D /* Pods-YouboraAVPlayerAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouboraAVPlayerAdapter.release.xcconfig"; path = "Target Support Files/Pods-YouboraAVPlayerAdapter/Pods-YouboraAVPlayerAdapter.release.xcconfig"; sourceTree = "<group>"; };
+		E502E2A95C92E18F46CE3648 /* Pods-YouboraAVPlayerAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouboraAVPlayerAdapter.debug.xcconfig"; path = "Target Support Files/Pods-YouboraAVPlayerAdapter/Pods-YouboraAVPlayerAdapter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EF9269B0CD43C7542876D28 /* Pods_YouboraAVPlayerAdapter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A83C906BAFD1D79FC367780 /* Pods_YouboraAVPlayerAdapter_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E210B940D4A9FD7716A22463 /* Pods_YouboraAVPlayerAdapter_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +177,9 @@
 				060F16D423AB80870043019D /* StreamrootSDK.framework */,
 				060F16D323AB80790043019D /* Build */,
 				069EA2E423A8EFE500819D94 /* YouboraLib.framework */,
+				B8842E448DBA22AD1EA060E5 /* Pods_YouboraAVPlayerAdapter.framework */,
+				43F398EC018C7F7ACF71FEAE /* Pods_YouboraAVPlayerAdapter_OSX.framework */,
+				AFCF80E0496E9F403E4C7D8A /* Pods_YouboraAVPlayerAdapter_tvOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -220,6 +238,12 @@
 		4E5371AC69C8477291A40A2E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				E502E2A95C92E18F46CE3648 /* Pods-YouboraAVPlayerAdapter.debug.xcconfig */,
+				DDCCBC245CB83579E9C4300D /* Pods-YouboraAVPlayerAdapter.release.xcconfig */,
+				35E69D4A3CDAF045369ECE93 /* Pods-YouboraAVPlayerAdapter OSX.debug.xcconfig */,
+				71A267FFBEE7A79B78A15D86 /* Pods-YouboraAVPlayerAdapter OSX.release.xcconfig */,
+				1DAF19746D7516BB0512586B /* Pods-YouboraAVPlayerAdapter tvOS.debug.xcconfig */,
+				80751B77EA9C838DBD7E943E /* Pods-YouboraAVPlayerAdapter tvOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -330,6 +354,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E4956681E9F6CAA00FF6280 /* Build configuration list for PBXNativeTarget "YouboraAVPlayerAdapter" */;
 			buildPhases = (
+				052ACE1D38A31A3602515FD1 /* [CP] Check Pods Manifest.lock */,
 				4E49565B1E9F6CAA00FF6280 /* Sources */,
 				4E49565C1E9F6CAA00FF6280 /* Frameworks */,
 				4E49565D1E9F6CAA00FF6280 /* Headers */,
@@ -349,6 +374,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD523806228DCD880013BA16 /* Build configuration list for PBXNativeTarget "YouboraAVPlayerAdapter OSX" */;
 			buildPhases = (
+				2E195C30DAE48C4D7784625B /* [CP] Check Pods Manifest.lock */,
 				CD5237FA228DCD880013BA16 /* Headers */,
 				CD5237FB228DCD880013BA16 /* Sources */,
 				CD5237FC228DCD880013BA16 /* Frameworks */,
@@ -368,6 +394,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDBA561B1FB0771900A9A35C /* Build configuration list for PBXNativeTarget "YouboraAVPlayerAdapter tvOS" */;
 			buildPhases = (
+				94CA79D4A3B8A34C7C963360 /* [CP] Check Pods Manifest.lock */,
 				CDBA560F1FB0771900A9A35C /* Sources */,
 				CDBA56101FB0771900A9A35C /* Frameworks */,
 				CDBA56111FB0771900A9A35C /* Headers */,
@@ -455,6 +482,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		052ACE1D38A31A3602515FD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YouboraAVPlayerAdapter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		06A41C5A236094EB00ECAE6B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -505,6 +554,50 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\n";
+		};
+		2E195C30DAE48C4D7784625B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YouboraAVPlayerAdapter OSX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94CA79D4A3B8A34C7C963360 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YouboraAVPlayerAdapter tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -683,6 +776,7 @@
 		};
 		4E4956691E9F6CAA00FF6280 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E502E2A95C92E18F46CE3648 /* Pods-YouboraAVPlayerAdapter.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -717,6 +811,7 @@
 		};
 		4E49566A1E9F6CAA00FF6280 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDCCBC245CB83579E9C4300D /* Pods-YouboraAVPlayerAdapter.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -750,6 +845,7 @@
 		};
 		CD523804228DCD880013BA16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E69D4A3CDAF045369ECE93 /* Pods-YouboraAVPlayerAdapter OSX.debug.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -800,6 +896,7 @@
 		};
 		CD523805228DCD880013BA16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A267FFBEE7A79B78A15D86 /* Pods-YouboraAVPlayerAdapter OSX.release.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -845,6 +942,7 @@
 		};
 		CDBA56191FB0771900A9A35C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DAF19746D7516BB0512586B /* Pods-YouboraAVPlayerAdapter tvOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -885,6 +983,7 @@
 		};
 		CDBA561A1FB0771900A9A35C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80751B77EA9C838DBD7E943E /* Pods-YouboraAVPlayerAdapter tvOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
